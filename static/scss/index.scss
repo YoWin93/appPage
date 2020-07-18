@@ -1,0 +1,100 @@
+a,
+a:hover{
+  text-decoration: none;
+}
+uni-view{
+	box-sizing: border-box;
+	}
+.content{
+	width: 100%;
+	padding-bottom: 40rpx;
+	.announce{
+		width: 100%;
+		height: 60rpx;
+		line-height: 60rpx;
+		background-color: #E8EDFA;
+		font-size: 22rpx;
+		padding: 0 30rpx;
+		color: #333;
+	}
+	.announce-icon{
+		width: 21rpx;
+		height: 23rpx;
+		background: url(~@/static/images/home_ic_icon_notice.png) center no-repeat;
+		background-size: 100% 100%;
+		float: left;
+		margin-top: 19rpx;
+		margin-right: 10rpx;
+	}
+	.announce-slide{
+		width: calc( 100% - 31rpx );
+		float: left;
+		a{
+			border-bottom: 1px solid #1677ff;
+		}
+		a,
+		a:visited{
+			color: #1677ff;
+		}
+	}
+	.item-group{
+		width: 100%;
+		padding: 15rpx 25rpx;
+		background-color: #F5F5F5;
+	}
+	.item-list{
+		width: 100%;
+		height: 208rpx;
+	}
+	.list-marry{
+		background: url(~@/static/images/list-marry.png) center no-repeat;
+		background-size: 100% 100%;
+	}
+	.list-divoice{
+		background: url(~@/static/images/list-divoice.png) center no-repeat;
+		background-size: 100% 100%;
+	}
+	.list-reimbursement{
+		background: url(~@/static/images/list-reimbursement.png) center no-repeat;
+		background-size: 100% 100%;
+	}
+	.list-reissue{
+		background: url(~@/static/images/list-reissue.png) center no-repeat;
+		background-size: 100% 100%;
+	}
+	.list-registry{
+		background: url(~@/static/images/list-registry.png) center no-repeat;
+		background-size: 100% 100%;
+	}
+	.foot-info{
+		width: 100%;
+		padding:0  39rpx;
+	}
+	.info-title{
+		width: 100%;
+		height: 60rpx;
+		line-height: 60rpx;
+		font-size: 26rpx;
+		font-weight: 700;
+		color: #333;
+	}
+	.info-item{
+		width: 100%;
+		font-size: 22rpx;
+		color: #666;
+		line-height: 35rpx;
+		.info-point{
+			width: 6rpx;
+			height: 6rpx;
+			margin-right: 10rpx;
+			border-radius: 50%;
+			float: left;
+			background-color: #666;
+			margin-top: 15rpx;
+		}
+		.info-list{
+			width: calc( 100% - 16rpx );
+			float: left;
+		}
+	}
+}

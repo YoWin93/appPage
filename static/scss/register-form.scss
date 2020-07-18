@@ -1,0 +1,237 @@
+
+.form-content{
+	
+	.from-tab{
+		background-color: #fff;
+	}
+	.form-panes{
+		padding: 10rpx 20rpx;
+	}
+	.form-group{
+		background-color: #fff;
+		margin-bottom: 28rpx;
+	}
+	.form-title{
+		color: #1677FF;
+		border-left: 5rpx  solid #1677FF;
+		height: 30rpx;
+		line-height: 30rpx;
+		padding-left: 12rpx;
+		font-size: 34rpx;
+		font-weight: 700;
+		margin-top: 20rpx;
+		margin-left: 20rpx;
+		
+	}
+	.form-item{
+		height: 110rpx;
+		padding-top: 20rpx;
+		// line-height: 110rpx;
+		border-bottom: 1px solid #EEEEEE;
+		.title{
+			float: left;
+			width: 240rpx;
+		}
+		/deep/.item-label{
+			font-size: 32rpx;
+		}
+		.uni-input{
+			float: right;
+			font-size: 28rpx;
+			width: 80%;
+			height: 80rpx;
+			// line-height: 80rpx;
+			margin: 15rpx 0;
+			padding-right: 10rpx;
+			text-align: right;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			// overflow:hidden; //超出的文本隐藏
+			// text-overflow:ellipsis; //溢出用省略号显示
+			// white-space:nowrap; //溢出不换行
+		}
+		.time-group{
+			float: right;
+			width: 40%;
+			color: #fff;
+			height: 80rpx;
+			text-align: center;
+			line-height: 80rpx;
+			font-size: 24rpx;
+			margin: 15rpx 0;
+			    background: #1677ff;
+			.code-btn{
+				display: inline-block;
+			}
+			.code-time{
+				display: inline-block;
+			}
+		}
+		.code-input{
+			float: right;
+			width: 40%;
+			height: 80rpx;
+			line-height: 80rpx;
+			font-size: 24rpx;
+			margin: 15rpx 0;
+			text-align: center;
+		}
+		.icon-box{
+			float: right;
+			width: 18rpx;
+			height: 30rpx;
+			margin: 40rpx 0;
+		}
+		
+		.right-icon{
+			background: url(~@/static/images/right-iocn.png) center no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+	.imgList-item{
+		box-sizing: border-box;
+		width: 100%;
+		// height: 1142rpx;
+		.img-group{
+			box-sizing: border-box;
+			width: 100%;
+		}
+	}
+	.add-img-box {
+		width: 50%;
+		float: left;
+	}
+	
+	.add-img-item {
+		width: 90%;
+		margin: 0 auto;
+		position: relative;
+		padding: 9rpx 0;
+	}
+	.other-list{
+		box-sizing: border-box;
+		width: 100%;
+		.add-img-item{
+			box-sizing: border-box;
+			width: 50%;
+			padding: 9rpx;
+			float: left;
+		}
+	}
+	.add-img-camera {
+		// flex: 1;
+	}
+	.add-img {
+		width: 100%;
+		height: 203rpx;
+		border-radius: 24rpx;
+	}
+	.add-img-del {
+		position: absolute;
+		width: 40rpx;
+		height: 40rpx;
+		right: 8rpx;
+		top: 17rpx;
+		z-index: 999;
+		//background-color: rgba(238, 0, 0, 1);
+		border-radius: 20rpx;
+	}
+	.img-title{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 17rpx 0;
+		text-align: center;
+		color: #333;
+		font-size: 22rpx;
+	}
+	.other-title{
+		width: 100%;
+		float: left;
+	}
+	.address-time {
+		width: 484rpx;
+		height: 88rpx;
+		background-color: rgba(245, 245, 245, 1);
+		opacity: 1;
+		border-radius: 24rpx;
+		text-align: center;
+	
+		font-size: 35rpx;
+		font-weight: 500;
+		color: rgba(51, 51, 51, 1);
+	}
+	.line{
+		width: 750rpx;
+		height: 1px;
+		transform: scaleY(0.3);
+		background-color: rgba(0,0,0,0.5);
+	}
+	
+}
+.btn-group{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 30rpx;
+	text-align: center;
+}
+.btn-item{
+	display: inline-block;
+	width:300rpx;
+	height:80rpx;
+	line-height: 80rpx;
+	color: #fff;
+	text-align: center;
+	background:rgba(22,119,255,1);
+	border-radius:5px;
+	margin: 0 10rpx;
+}
+.code-box{
+	margin: 24rpx 0;
+	height:138rpx;
+	line-height: 138rpx;
+	border-radius:16px;
+	font-weight: 700;
+	font-size: 30rpx;
+	text-align: center;
+	border: 1px solid #999999;
+	color: #999;
+
+// 	&:nth-child(2){
+// 	border: 1px solid #999999;
+// 	color: #999;
+// }
+}
+	.activebg{
+	background-color: #1677FF;
+	color: #fff;
+}
+.null-box{
+	.null-bg{
+		display: block;
+		margin: 30rpx auto;
+		width: 162rpx;
+		height: 143rpx;
+	}
+}
+.time-picker{
+	width: 50%;
+	float: right;
+	text-align: right;
+	color: #00B578;
+}
+.frend-ship{
+	padding: 28rpx;
+	background-color: #F5F5F5;
+}
+.ship-title{
+	font-weight: 700;
+	color: #333;
+	font-size: 26rpx;
+	line-height: 36rpx;
+}
+.ship-box{
+	line-height: 36rpx;
+	font-size: 22rpx;
+	color: #666;
+}
